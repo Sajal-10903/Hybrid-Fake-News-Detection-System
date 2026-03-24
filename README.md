@@ -37,3 +37,17 @@ python -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
 # OR
 .venv\Scripts\activate     # On Windows
+
+**2. Create a Virtual Environment (Recommended)**
+python -m venv .venv
+source .venv/bin/activate  # On macOS/Linux
+# OR
+.venv\Scripts\activate     # On Windows
+
+**3. Install Dependencies**
+pip install -r requirements.txt
+
+**4. How to Run**
+Since the pre-trained model and vectorizer files (.pkl) are already included in the repository, you do not need to retrain the model.
+
+streamlit run fake_news_detector.py
