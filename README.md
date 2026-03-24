@@ -8,20 +8,38 @@
 
 An advanced, real-time Fake News Detection System built as a Hybrid Application. This project combines the power of **Machine Learning (Pattern Recognition)** with **Live Web Search (Fact Verification)** to detect fabricated news and verify authentic claims.
 
-### 📊 Performance Tracking
+---
+
+## 📊 Performance Tracking
+
 - **Accuracy:** ~82.74%
 - **Precision:** ~83.90%
 - **Recall:** ~95.50%
 - **F1 Score:** ~89.32%
 
+---
+
 ## ✨ Key Features
 
-* **Hybrid Detection Engine:** Uses a trained Logistic Regression model to analyze text patterns and linguistic cues.
-* **Live Web Verification:** Integrates the DuckDuckGo Search API (`DDGS`) to cross-reference claims against live official news sources.
-* **Intelligent Fallback System:** Automatically handles API rate limits by falling back to the ML model's linguistic confidence score, explaining the context to the user.
-* **Fabricated Claim Detection:** Successfully flags sentences that are grammatically correct but factually non-existent (e.g., rumors or generated text).
-* **Interactive UI:** Built with Streamlit for a clean, modern, and user-friendly web interface.
+- **Hybrid Detection Engine:** Uses a trained Logistic Regression model to analyze text patterns and linguistic cues.
+- **Live Web Verification:** Integrates the DuckDuckGo Search API (`DDGS`) to cross-reference claims against live official news sources.
+- **Intelligent Fallback System:** Automatically handles API rate limits by falling back to the ML model's linguistic confidence score.
+- **Fabricated Claim Detection:** Flags grammatically correct but factually non-existent content.
+- **Interactive UI:** Built with Streamlit for a clean, modern interface.
 
+---
+
+## 📂 Dataset
+
+Due to size limitations, datasets are not included in this repository.  
+You can download them from the following sources:
+
+- https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?select=News+_dataset  
+- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification  
+
+> After downloading, place the dataset files inside the `data/` folder.
+
+---
 
 ## 🚀 Installation & Setup
 
