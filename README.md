@@ -22,9 +22,6 @@ An advanced, real-time Fake News Detection System built as a Hybrid Application.
 * **Fabricated Claim Detection:** Successfully flags sentences that are grammatically correct but factually non-existent (e.g., rumors or generated text).
 * **Interactive UI:** Built with Streamlit for a clean, modern, and user-friendly web interface.
 
-## 🚀 Installation & Setup
-
-Follow these simple steps to set up the project on your local machine:
 
 ## 🚀 Installation & Setup
 
