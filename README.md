@@ -26,28 +26,32 @@ An advanced, real-time Fake News Detection System built as a Hybrid Application.
 
 Follow these simple steps to set up the project on your local machine:
 
-**1. Clone the Repository**
+## 🚀 Installation & Setup
+
+Follow these simple steps to set up the project on your local machine:
+
+### 1. Clone the Repository
 ```bash
 git clone <your-github-repo-url>
 cd fake-news-detector
+```
 
-**2. Create a Virtual Environment (Recommended)**
+### 2. Create a Virtual Environment (Recommended)
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
 # OR
 .venv\Scripts\activate     # On Windows
+```
 
-**2. Create a Virtual Environment (Recommended)**
-python -m venv .venv
-source .venv/bin/activate  # On macOS/Linux
-# OR
-.venv\Scripts\activate     # On Windows
-
-**3. Install Dependencies**
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-**4. How to Run**
-Since the pre-trained model and vectorizer files (.pkl) are already included in the repository, you do not need to retrain the model.
+### 4. How to Run
+Since the pre-trained model and vectorizer files (.pkl) are already included, you do not need to retrain the model.
 
+```bash
 streamlit run fake_news_detector.py
+```
